@@ -1,6 +1,9 @@
 server:
   port: 9007
 
+rabbitmq:
+  host: 192.168.230.128
+
 spring:
   application:
     name: dearoffer-search
@@ -18,3 +21,6 @@ eureka:
       defaultZone: http://localhost:8686/eureka
   instance:
     prefer‐ip‐address: true
+
+rabbitmq:
+  host: 192.168.230.128

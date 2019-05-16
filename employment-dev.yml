@@ -1,6 +1,9 @@
 server:
   port: 9004
 
+rabbitmq:
+  host: 192.168.230.128
+
 spring:
   application:
     name: dearoffer-employment
