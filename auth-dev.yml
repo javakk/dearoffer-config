@@ -10,7 +10,6 @@ spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://192.168.230.130:3306/offer?characterEncoding=utf-8
-    # url: jdbc:mysql://localhost:3306/offer?characterEncoding=utf-8/
     username: root
     password: root
   jpa:
@@ -35,4 +34,4 @@ eureka:
     service‐url:
       defaultZone: http://localhost:8686/eureka
   instance:
-    prefer‐ip‐address: true
+    prefer-ip-address: true
