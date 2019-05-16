@@ -1,9 +1,6 @@
 server:
   port: 9001
 
-rabbitmq:
-    host: 192.168.230.130
-
 spring:
   application:
     name: dearoffer-auth
@@ -19,7 +16,10 @@ spring:
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
   redis:
-    host: 192.168.230.130  
+    host: 192.168.230.130
+
+  rabbitmq:
+    host: 192.168.230.130
 
 redis:
   keys:
@@ -34,9 +34,4 @@ eureka:
     service‐url:
       defaultZone: http://localhost:8686/eureka
   instance:
-    prefer-ip-address: true
-    
-spring:
-  cloud:
-    refresh:
-      refreshable: none
+    prefer‐ip‐address: true
