@@ -35,3 +35,8 @@ eureka:
       defaultZone: http://localhost:8686/eureka
   instance:
     prefer-ip-address: true
+    
+spring:
+  cloud:
+    refresh:
+      refreshable: none
