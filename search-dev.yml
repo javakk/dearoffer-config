@@ -2,14 +2,14 @@ server:
   port: 9007
 
 rabbitmq:
-  host: 192.168.230.128
+  host: 192.168.230.130
 
 spring:
   application:
     name: dearoffer-search
   data:
     elasticsearch:
-      cluster-nodes: 192.168.230.128:9300
+      cluster-nodes: 192.168.230.130:9300
 
 const:
   index-search:
@@ -23,4 +23,4 @@ eureka:
     prefer‐ip‐address: true
 
 rabbitmq:
-  host: 192.168.230.128
+  host: 192.168.230.130
