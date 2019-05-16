@@ -1,6 +1,9 @@
 server:
   port: 9001
 
+rabbitmq:
+    host: 192.168.230.128
+
 spring:
   application:
     name: dearoffer-auth
@@ -17,10 +20,7 @@ spring:
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
   redis:
-    host: 192.168.230.128
-
-  rabbitmq:
-    host: 192.168.230.128
+    host: 192.168.230.128  
 
 redis:
   keys:
