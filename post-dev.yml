@@ -1,9 +1,6 @@
 server:
   port: 9005
 
-rabbitmq:
-  host: 192.168.230.130
-
 spring:
   application:
     name: dearoffer-post
@@ -23,7 +20,8 @@ spring:
     hibernate:
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
-
+  rabbitmq:
+    host: 192.168.230.130
 
 
 eureka:

@@ -1,8 +1,7 @@
 server:
   port: 9007
 
-rabbitmq:
-  host: 192.168.230.130
+
 
 spring:
   application:
@@ -10,7 +9,8 @@ spring:
   data:
     elasticsearch:
       cluster-nodes: 192.168.230.130:9300
-
+  rabbitmq:
+    host: 192.168.230.130
 const:
   index-search:
     pageSize: 5

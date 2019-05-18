@@ -1,16 +1,13 @@
 server:
   port: 9005
 
-rabbitmq:
-  host: 192.168.230.130
+
 
 spring:
   application:
     name: dearoffer-message
-
   rabbitmq:
     host: 192.168.230.130
-
 tencent:
   message:
     appid: 1400204427

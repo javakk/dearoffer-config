@@ -1,8 +1,7 @@
 server:
   port: 9002
 
-rabbitmq:
-  host: 192.168.230.130
+
 
 spring:
   application:
@@ -18,8 +17,9 @@ spring:
     hibernate:
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
-
   redis:
+    host: 192.168.230.130
+  rabbitmq:
     host: 192.168.230.130
 eureka:
   client:
