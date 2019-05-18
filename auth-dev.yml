@@ -17,9 +17,11 @@ spring:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
   redis:
     host: 192.168.230.130
-
   rabbitmq:
     host: 192.168.230.130
+  cloud:
+    refresh:
+      refreshable: none
 
 redis:
   keys:
