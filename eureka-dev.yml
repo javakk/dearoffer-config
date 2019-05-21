@@ -2,7 +2,7 @@ server:
   port: 8686
 spring:
   rabbitmq:
-    host: 192.168.230.130
+    host: 129.28.154.216
 
 eureka:
   client:

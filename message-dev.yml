@@ -7,7 +7,7 @@ spring:
   application:
     name: dearoffer-message
   rabbitmq:
-    host: 192.168.230.130
+    host: 129.28.154.216
 tencent:
   message:
     appid: 1400204427
@@ -20,6 +20,6 @@ tencent:
 eureka:
   client:
     service‐url:
-      defaultZone: http://localhost:8686/eureka
+      defaultZone: http://129.28.154.216:8686/eureka
   instance:
     prefer‐ip‐address: true

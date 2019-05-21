@@ -8,9 +8,9 @@ spring:
     name: dearoffer-search
   data:
     elasticsearch:
-      cluster-nodes: 192.168.230.130:9300
+      cluster-nodes: 129.28.154.216:9300
   rabbitmq:
-    host: 192.168.230.130
+    host: 129.28.154.216
 const:
   index-search:
     pageSize: 5
@@ -18,9 +18,9 @@ const:
 eureka:
   client:
     service‐url:
-      defaultZone: http://localhost:8686/eureka
+      defaultZone: http://129.28.154.216:8686/eureka
   instance:
     prefer‐ip‐address: true
 
 rabbitmq:
-  host: 192.168.230.130
+  host: 129.28.154.216

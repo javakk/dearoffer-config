@@ -5,11 +5,11 @@ spring:
   application:
     name: dearoffer-zuul
   rabbitmq:
-    host: 192.168.230.130 
+    host: 129.28.154.216 
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://127.0.0.1:8686/eureka/
+      defaultZone: http://129.28.154.216:8686/eureka/
   instance:
     prefer‐ip‐address: true
 
