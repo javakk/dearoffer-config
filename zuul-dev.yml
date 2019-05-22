@@ -16,23 +16,11 @@ eureka:
 zuul:
   routes:
     dearoffer-auth:
-      path: /auth/**
-      serviceId: dearoffer-auth
-    dearoffer-base:
       path: /base/**
-      serviceId: dearoffer-base
-    dearoffer-company:
-      path: /company/**
-      serviceId: dearoffer-company
-    dearoffer-employment:
-      path: /employ/**
-      serviceId: dearoffer-employ
+      serviceId: dearoffer-auth
     dearoffer-post:
       path: /post/**
       serviceId: dearoffer-post
-    dearoffer-resume:
-      path: /resume/**
-      serviceId: dearoffer-resume
     dearoffer-search:
       path: /search/**
       serviceId: dearoffer-search
